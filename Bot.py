@@ -5,7 +5,7 @@ from aiogram.types import FSInputFile, InlineKeyboardMarkup, InlineKeyboardButto
 from aiogram.filters import CommandStart
 
 TOKEN = os.environ.get("BOT_TOKEN", "")
-WEBAPP_URL = os.environ.get("WEBAPP_URL", "https://your-miniapp-site.com")
+WEBAPP_URL = os.environ.get("WEBAPP_URL", "https://leetarwei07-bit.github.io/Prime-Shop/")
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher()
